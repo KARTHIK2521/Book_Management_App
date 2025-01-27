@@ -12,6 +12,7 @@ import { ChartsComponent } from './components/charts/charts.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { DeletebookComponent } from './components/deletebook/deletebook.component';
 import { ViewbookComponent } from './components/viewbook/viewbook.component';
+import { IssuebookComponent } from './components/issuebook/issuebook.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ViewbookComponent } from './components/viewbook/viewbook.component';
     ChartsComponent,
     PageNotFoundComponent,
     DeletebookComponent,
-    ViewbookComponent
+    ViewbookComponent,
+    IssuebookComponent
   ],
   imports: [
     BrowserModule,

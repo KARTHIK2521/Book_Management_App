@@ -9,7 +9,7 @@ import { AddbookService } from 'src/app/shared/service/addbook.service';
 })
 export class DeletebookComponent implements OnInit {
 
-  tableColumnDate=['Id','BookName','Author','Publication','Qty','Price','Branch','Details','Action'];
+  tableColumnDate=['Id','BookName','Author','Publication','Qty','Price','Branch','Action'];
 
   bookDetailsData:Array<AddBook>=[];
 

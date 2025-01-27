@@ -9,6 +9,7 @@ import { AddBookComponent } from './components/add-book/add-book.component';
 import { ViewbookComponent } from './components/viewbook/viewbook.component';
 import { DeletebookComponent } from './components/deletebook/deletebook.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { IssuebookComponent } from './components/issuebook/issuebook.component';
 
 
 const routes: Routes = [
@@ -39,6 +40,11 @@ const routes: Routes = [
   {
     path:'deleteBook',
     component:DeletebookComponent,
+    canActivate:[authGuard]
+  },
+  {
+    path:'issueBook',
+    component:IssuebookComponent,
     canActivate:[authGuard]
   },
   {

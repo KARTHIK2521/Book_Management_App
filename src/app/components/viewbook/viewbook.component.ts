@@ -9,7 +9,7 @@ import { AddbookService } from 'src/app/shared/service/addbook.service';
 })
 export class ViewbookComponent  implements OnInit{
 
-  tableColumnDate=['Author','Branch','Details','IsbnNumber','Name','Price','Publication','Qty'];
+  tableColumnDate=['Book Name','Author','Publication','Qty','Price','Branch','Details'];
 
   bookDetailsData:Array<AddBook>=[];
 
