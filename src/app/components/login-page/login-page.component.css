@@ -1,0 +1,23 @@
+
+.login-page-style {
+  min-height: 100vh;
+  background-image: linear-gradient(180deg, #e9eef8,#abc0e4);
+}
+.login-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+.digital{
+  font-size: 60px;
+  color: #2f5597;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+.button-color:hover{
+  background-color:  #2f5597;
+}
+

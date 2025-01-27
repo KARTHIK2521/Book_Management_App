@@ -1,0 +1,87 @@
+{
+  "loginCredentialList": [
+    {
+      "username": "digitallibrary@gmail.com",
+      "password": "invensoft@123"
+    }
+  ],
+  "books": [
+    {
+      "isbnNumber": 51425,
+      "name": "Artificial Intelligence: A Modern Approach",
+      "author": " Stuart Russell ",
+      "publication": "qwert",
+      "details": "good ",
+      "qty": 3,
+      "price": 120,
+      "branch": "IT",
+      "id": 3
+    },
+    {
+      "isbnNumber": 53359,
+      "name": "To Engineer Is Human",
+      "author": "S S Bhavikatti",
+      "publication": "pirts",
+      "details": "Good ",
+      "qty": 3,
+      "price": 412,
+      "branch": "Civil",
+      "id": 5
+    },
+    {
+      "isbnNumber": 53341,
+      "name": "Machinery's Handbook. ",
+      "author": "V B Bhandari, ",
+      "publication": "asdtc",
+      "details": "goodbooh",
+      "qty": 5,
+      "price": 120,
+      "branch": "Civil",
+      "id": 6
+    },
+    {
+      "isbnNumber": 54345,
+      "name": "Materials Science and Engineering:",
+      "author": "Raman",
+      "publication": "gsfgcsg",
+      "details": "good books ",
+      "qty": 2,
+      "price": 120,
+      "branch": "Mech",
+      "id": 7
+    },
+    {
+      "isbnNumber": 89734,
+      "name": "Design of Machine Elements",
+      "author": " V B Bhandari,",
+      "publication": "ASTGF",
+      "details": "Good book ",
+      "qty": 3,
+      "price": 120,
+      "branch": "Civil",
+      "id": 9
+    },
+    {
+      "isbnNumber": 242342,
+      "name": "Rahul ",
+      "author": "Gaanesh",
+      "publication": "SRMHG",
+      "details": "Good Book",
+      "qty": 1,
+      "price": 6,
+      "branch": "Civil",
+      "id": 10
+    },
+    {
+      "isbnNumber": 89858,
+      "name": "Kiran",
+      "author": "asc",
+      "publication": "Surya ",
+      "details": "Good book",
+      "qty": 3,
+      "price": 38,
+      "branch": "Civil",
+      "id": 11
+    }
+  ]
+}

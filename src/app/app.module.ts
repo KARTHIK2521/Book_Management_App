@@ -1,16 +1,34 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { AddBookComponent } from './components/add-book/add-book.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ChartsComponent } from './components/charts/charts.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { DeletebookComponent } from './components/deletebook/deletebook.component';
+import { ViewbookComponent } from './components/viewbook/viewbook.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginPageComponent,
+    DashboardComponent,
+    AddBookComponent,
+    ChartsComponent,
+    PageNotFoundComponent,
+    DeletebookComponent,
+    ViewbookComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
