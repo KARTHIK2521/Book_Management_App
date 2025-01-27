@@ -10,6 +10,6 @@
  .table-bordered {
   border: 2px solid #78c771;
 }
-tbody tr:nth-child(odd){
+/* tbody tr:nth-child(odd){
   background-color:#c3e6cb;
-}
+} */
