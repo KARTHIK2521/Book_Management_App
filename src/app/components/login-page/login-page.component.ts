@@ -38,7 +38,7 @@ this._login.checkLogin().subscribe((res:any)=>{
    {
     sessionStorage.setItem('username',r.username);
      this.router.navigateByUrl('dashboard');
-     alert("success");
+     alert("You have successfully logged in");
    }
    else{
      alert("Wrong Credentials");
